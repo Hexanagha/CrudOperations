@@ -1,4 +1,4 @@
-package anagha.pojo;
+package crud.pojo;
 
 public class Employee {
 	private int empno;

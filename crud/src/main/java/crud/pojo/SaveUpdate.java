@@ -1,10 +1,10 @@
-package anagha.pojo;
+package crud.pojo;
 import java.util.Scanner;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-public class Save_Update {
+public class SaveUpdate {
 	public static void main(String[] args) {
 		Session session = HibernateUtil.getSessionFactory().openSession();
 		Transaction transaction = null;

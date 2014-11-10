@@ -1,4 +1,4 @@
-package anagha.pojo;
+package crud.pojo;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
