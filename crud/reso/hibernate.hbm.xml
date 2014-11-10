@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="anagha.pojo.Employee" table="emp1000">
+		<meta attribute="class-description"> This class contains employee details. </meta>
+		<id name="empno" type="int" column="empno">
+		</id>
+		<property name="ename" type="string" column="ename" not-null="true" />
+		<property name="job" type="string" column="job" not-null="true" />
+		<property name="sal" type="integer" column="sal" not-null="true" />
+		<property name="deptno" type="integer" column="deptno"
+			not-null="true" />
+	</class>
+</hibernate-mapping>
